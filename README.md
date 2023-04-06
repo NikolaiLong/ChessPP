@@ -1,4 +1,5 @@
 # ChessPP
+
 migration of the Chess repository to C++ for improved algorithm performance
 
 
@@ -40,29 +41,13 @@ RL Docs
 - https://www.simplilearn.com/the-power-of-decision-trees-in-machine-learning-article
 
 ### Level 2
-* neural network with reinforcement learning [board] - {learns rules}
+* neural network
 
 ### Level 3
-* CNN with reinforcement learning [board] - {learns rules}
+* CNN with reinforcement learning
 
 ### Level 4 (hypothetical)
-* CNN + random forest (for advanced feature classification) [board] - {learns rules}
+* CNN + random forest (for advanced feature classification)
 - random forest: https://www.simplilearn.com/tutorials/machine-learning-tutorial/random-forest-algorithm
 - https://www.frontiersin.org/articles/10.3389/fmolb.2019.00044/full
 - https://www.nature.com/articles/s41598-022-15374-5
-
-
-
-#### Disclaimer:
-All coordinates in code are in (x,y) i.e. (column,row) format - then are transformed when printed
-
-#### Current To Do:
-* update all libraries
-* plan out ML library progressions
-* connect database
-
-#### Updates Coming Soon:
-* log file upload to resume a position
-* Executable file to play chess
-* Medium and large chess board sizes (default is currently XL)
-* NN advancement - computer is currently non existent
